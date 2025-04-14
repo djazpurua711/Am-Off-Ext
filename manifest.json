@@ -1,0 +1,10 @@
+{
+  "name": "Amex Offers Clicker Button",
+  "description": "Creates a button on the Amex offers page that when clicked clicks offers one at a time",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
