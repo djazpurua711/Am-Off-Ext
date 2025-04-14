@@ -17,7 +17,5 @@
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
-      "matches": [
-        "https://*.americanexpress.com/*"
-      ]
+      "matches": ["https://*.americanexpress.com/*"]
 }
