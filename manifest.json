@@ -1,6 +1,6 @@
 {
   "name": "Amex Offers Clicker Button",
-  "description": "Creates a button on the Amex offers page that when clicked clicks offers one at a time",
+  "description": "Creates a button on the Amex offers page that when clicked activates the offers one at a time with a small delay between each",
   "version": "1.0",
   "author": "djazpurua@gmail.com",
   "manifest_version": 3,
@@ -13,5 +13,11 @@
     "32": "icon32.png",
     "48": "icon48.png",
     "128": "icon128.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://*.americanexpress.com/*"
+      ]
 }
