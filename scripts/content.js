@@ -14,7 +14,7 @@ function init() {
 }
 
 function checkForOffersClass() {
-	elements = document.querySelectorAll('.css-1mz64tl');
+	elements = document.querySelectorAll('[data-testid="merchantOfferListAddButton"]');
 	if (elements.length > 0) {
 		index = 0;
 		btn.style.display = 'block';
